@@ -1,0 +1,31 @@
+#ifndef ATL_INSTINFO_H
+   #define ATL_INSTINFO_H
+
+#define ATL_ARCH "x86SSE264SSE2"
+#define ATL_INSTFLAGS "-1 0 -a 1 -l 1"
+#define ATL_F2CDEFS "-DAdd_ -DF77_INTEGER=int -DStringSunStyle"
+#define ATL_ARCHDEFS "-DATL_OS_Linux -DATL_ARCH_x86SSE2 -DATL_CPUMHZ=2095 -DATL_SSE2 -DATL_SSE1 -DATL_USE64BITS -DATL_GAS_x8664"
+#define ATL_DKCFLAGS "-fomit-frame-pointer -mfpmath=sse -O2 -msse2 -fPIC -m64"
+#define ATL_DKC "/usr/bin/gcc"
+#define ATL_SKCFLAGS "-fomit-frame-pointer -mfpmath=sse -O2 -msse2 -fPIC -m64"
+#define ATL_SKC "/usr/bin/gcc"
+#define ATL_DMCFLAGS "-fomit-frame-pointer -mfpmath=sse -O2 -msse2 -fPIC -m64"
+#define ATL_DMC "/usr/bin/gcc"
+#define ATL_SMCFLAGS "-fomit-frame-pointer -mfpmath=sse -O2 -msse2 -fPIC -m64"
+#define ATL_SMC "/usr/bin/gcc"
+#define ATL_ICCFLAGS "-DL2SIZE=4194304 -I/build/atlas-O4mcM_/atlas-3.10.2/build/atlas-base/include -I/build/atlas-O4mcM_/atlas-3.10.2/build/atlas-base/../..//include -I/build/atlas-O4mcM_/atlas-3.10.2/build/atlas-base/../..//include/contrib -DAdd_ -DF77_INTEGER=int -DStringSunStyle -DATL_OS_Linux -DATL_ARCH_x86SSE2 -DATL_CPUMHZ=2095 -DATL_SSE2 -DATL_SSE1 -DATL_USE64BITS -DATL_GAS_x8664 -m64 -DWALL -fomit-frame-pointer -mfpmath=sse -O2 -msse2 -fPIC -m64"
+#define ATL_ICC "/usr/bin/gcc"
+#define ATL_F77FLAGS "-fomit-frame-pointer -mfpmath=sse -O2 -msse2 -fPIC -m64"
+#define ATL_F77 "/usr/bin/gfortran"
+#define ATL_DKCVERS "gcc (Ubuntu 5.2.1-24ubuntu3) 5.2.1 20151121"
+#define ATL_SKCVERS "gcc (Ubuntu 5.2.1-24ubuntu3) 5.2.1 20151121"
+#define ATL_DMCVERS "gcc (Ubuntu 5.2.1-24ubuntu3) 5.2.1 20151121"
+#define ATL_SMCVERS "gcc (Ubuntu 5.2.1-24ubuntu3) 5.2.1 20151121"
+#define ATL_ICCVERS "gcc (Ubuntu 5.2.1-24ubuntu3) 5.2.1 20151121"
+#define ATL_F77VERS "GNU Fortran (Ubuntu 5.2.1-24ubuntu3) 5.2.1 20151121"
+#define ATL_SYSINFO "Linux lgw01-49 3.19.0-33-generic #38 14.04.1-Ubuntu SMP Fri Nov 6 18:17:28 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux"
+#define ATL_DATE    "Mon Nov 23 23:12:07 UTC 2015"
+#define ATL_UNAM    "buildd"
+#define ATL_VERS    "3.10.2"
+
+#endif
